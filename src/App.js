@@ -30,7 +30,7 @@ function App() {
   return (
     <div>
       <NewExpense/>
-      <Expenses expenses={expenses} />
+      <Expenses items={expenses} />
     </div>
   );
 }
